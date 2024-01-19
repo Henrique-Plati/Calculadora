@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Press+Start+2P&display=swap');
+
+
+
+:root {
+    --prymary-color: #423f54;
+    --prymary-color-darker: #171428;
+}
+
+
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+    
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--prymary-color);
+    font-family: "Press Start 2P", system-ui;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+.container {
+    max-width: 640px;
+    margin: 50px auto;
+    background: #746f93;
+    padding: 20px;
+    border-radius: 10px;
+    height: 650px;
+    cursor:default;
+}
+
+.calculadora{
+    width: 40px;
+    
+}
+
+.display{
+    font-size: 28px;
+    width: 100;
+    height: 60px;
+    text-align: right;
+    font-family: "Press Start 2P", system-ui;
+    border: none;
+    background: aliceblue;;
+    cursor:default;
+    
+    
+}
+
+.btn{
+    width: 90%;
+    font-family: "Press Start 2P", system-ui;
+    height: 60px;
+    font-size: 1em;
+    background: aliceblue;
+    cursor: pointer;
+    border:none;
+    margin: 5px;
+    border-radius: 3px;
+}
+
+.btn:hover{
+    background: rgb(215, 233, 248);
+}
+
+.btn-eq {
+    background-color: rgb(242, 95, 41);
+    border: none;
+    margin: 5px;
+}
+.btn-eq:hover{
+    background: rgb(201, 70, 22);
+}
